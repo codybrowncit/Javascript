@@ -1,11 +1,13 @@
 <html>
     <head>
         <title>Picture Viewer</title>
-        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <style>
+
+        </style>
 
 
     </head>
-    <body class="col-xs-12">
+    <body>
         <center>
             <h1>Picture Viewer</h1>
             
@@ -13,14 +15,13 @@
             <button class="btn btn-default" id="cat2">Category 2</button>
             <button class="btn btn-default" id="cat3">Category 3</button>
             <button class="btn btn-default" id="cat4">Category 4</button>
-            
+            <div id="main" class="popup-gallery"></div>
         </center>
-        <div id="main" class="carousel slide " data-ride="carousel" >
-            <ol id="nav"class="carousel-indicators col-xs-offset-1"></ol>
-            <div id="carousel-inner" class="carousel-inner col-xs-offset-1" role="listbox"></div>
-        </div>
         
         <!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
+
+
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -31,6 +32,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Magnific Popup core JS file -->
-    <script type="text/javascript" language="javascript" src="style/piclist.js"></script>
+<script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="piclist.js"></script>
     </body>
 </html>
