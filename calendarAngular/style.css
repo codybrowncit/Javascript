@@ -1,0 +1,51 @@
+
+
+.months {
+	background-color: #66CCFF; 
+	width: 100px;
+    border: 2px solid #686868;
+    text-align: center; 
+}
+
+.days {
+	background-color: #E5E5E5;
+	width: 100px;
+    border: 2px solid #686868;
+    text-align: center; 
+}
+
+td {
+	border:2px solid #686868;
+	width:100px;
+	height:100px;
+}
+input {
+	width: 100px;
+}
+#events {
+	border: 2px solid #686868;
+	height: 500px;
+}
+.title {
+	background-color: #66CCFF; 
+	border-bottom: 2px solid #686868;
+	font-size: 35px;
+
+}
+
+.year {
+	background-color: #E5E5E5;
+	border-bottom: 1px solid #686868;
+	font-size: 20px;
+}
+.month {
+
+	border-bottom: 1px dashed #686868;
+	font-size: 15px;
+}
+.event {
+
+
+
+}
+
