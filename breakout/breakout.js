@@ -6,8 +6,8 @@
 	var bx = 385;
 	var by =300;
 	var count =1;
-	var main = document.getElementById('main')
-	var paddle = document.createElement('div')
+	var main = document.getElementById('main');
+	var paddle = document.createElement('div');
 	var offset = main.offsetLeft;
 
 	
