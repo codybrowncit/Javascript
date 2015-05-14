@@ -69,6 +69,7 @@ $(function()
 	equation();
 	drawBoard();
 	document.onkeydown = checkKey;
+	$("#instructions").dialog({dialogClass:'inst'});
 	$("#menu").dialog();
 	$('#gameOver').dialog({
         autoOpen: false
